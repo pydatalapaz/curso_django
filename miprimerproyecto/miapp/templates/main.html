@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Primer Proyecto Django</title>
+</head>
+<body>
+    <div>
+        <ul>
+            {% for e in estudiantes %}
+            <li>{{e.id}} - {{e.name}} - {{e.apellido}}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
